@@ -1,2 +1,57 @@
-# MIT_AJL_Team_12
-Build an ML model to classify skin conditions across diverse skin tones. Advance equity by centering those historically excluded in AI.
+<!-- HEADER -->
+<div align="center">
+  <!-- Source: https://tenor.com/view/football-soccer-ball-goal-golazo-gif-21897044 -->
+  <img src="https://github.com/user-attachments/assets/d03a49d5-8eb5-440b-bc9d-75f4eabffde4" height=80>
+  <h1>
+    Beyond Sight
+    <br><br>
+  </h1>
+</div>
+
+<!-- CONTRIBUTORS -->
+ADD INFO ON THE CONTRIBUTORS' NAMES, COLLEGES, AND FUN FACTS AS POPUPS
+
+<!-- BREAK THROUGH TECH -->
+ADD INFO ON WHAT BREAK THROUGH TECH IS
+
+<!-- RESOURCES -->
+ADD GOOGLE DRIVE, NOTION, AND KAGGLE
+
+<!-- BACKROUND -->
+ADD BACKGROUND INFO ON WHAT THE PROJECT WAS ABOUT
+
+<!-- HISTORY OF MISCLASSIFICATION -->
+ADD BACKGROUND INFO ON THE HISTORY OF MISCLASSIFICATION BASED ON RACE OF ML MODELS NOT PROPERLY TRAINED
+
+<!-- FITZPATRICK SCALE -->
+ADD BACKGROUND INFO ON WHAT FITZPATRICK SCALE IS
+
+<!-- DATA MANIPULATION STRATEGIES -->
+ADD INFO ON WHAT NEEDED TO BE DONE TO AUGMENT THE PICTURES OF THOSE IDENTIFIED IN LOWER FITZPATRICK CLASSES
+
+<!-- MODEL -->
+ADD INFO ON MODELS THAT WERE TRAINED TO INCREASE SCORE (ALL OF THE ONES TRIED AND THEN THE LAST ONE)
+
+<!-- ACCURACY SCORE -->
+ADD INFO ON OUR CURRENT ACCURACY SCORE AND WHAT THAT MEANS
+
+<!-- FUTURE AJL DIRECTIVES -->
+ADD INFO ON WHAT AJL CAN DO WITH OUR NEW RESULTS AND HOW IT CAN ADVANCE EQUITY BY CENTERING THOSE HISTORICALLY EXCLUDED IN AI
+
+<!-- CHALLENGES/LIMITATIONS -->
+ADD INFO ON WHAT WE FOUND TO BE CHALLENGING (e.g. fairlearn)
+
+<!-- CONTACT US -->
+## 🗨️ Contact Us!
+
+For more details about our project, below are the best ways to contact our team:
+
+- **Ajibola**:
+- **Fridah**:
+- **Ishita**:
+- **Kerem**:
+- **Paula**: sefia.p@northeastern.edu
+
+Thank you so much for reading!
+
+[Back to top](#top)
