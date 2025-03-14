@@ -84,14 +84,18 @@ ADD INFO ON WHAT WE FOUND TO BE CHALLENGING (e.g. fairlearn)
 [🔼 Back to top](#top)
 
 <!-- CONTACT US -->
-## 🗨️ Contact Us
+<div align="center">
+  <h1>
+    👋 Contact Us 👋
+    </h1>
+</div>
 
 For more details about our project, below are the best ways to contact our team:
 
-- **Ajibola**:
-- **Fridah**:
-- **Ishita**:
-- **Kerem**:
+- **Ajibola**: https://www.github.com/Blash03
+- **Fridah**: https://www.github.com/FridahNtika
+- **Ishita**: https://github.com/ikakkar03
+- **Kerem**: https://www.github.com/KeremFarzaliyev
 - **Paula**: https://www.github.com/psefia
 #
 [🔼 Back to top](#top)
