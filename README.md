@@ -4,7 +4,7 @@
   <h1>
     🫶🏻🫶🫶🏼🫶🏽🫶🏾🫶🏿<br>Equitable AI for Dermatology<br>🫶🏿🫶🏾🫶🏽🫶🏼🫶🫶🏻
     <h3>Break Through Tech AI Algorithmic Justice League Team 12</h3>
-    </h1>
+  </h1>
   <br><br><br><br>
 </div>
 
@@ -13,7 +13,7 @@
 <div align="center">
   <h1>
     🤝🏿 Contributors 🤝🏿
-    </h1>
+  </h1>
 </div>
 
 
@@ -40,7 +40,19 @@ Paula (she/her) is a Computer Science and Cognitive Psychology student at Northe
 
 
 <!-- BREAK THROUGH TECH -->
-ADD INFO ON WHAT BREAK THROUGH TECH IS
+[<img align="left" src="https://github.com/user-attachments/assets/e239a754-d90c-4c23-94ca-820ee7d5d052" height=210>](https://www.breakthroughtech.org/programs/the-ai-program/)
+
+Break Through Tech AI is a Cornell Tech initiative that brings together college students in the greater Boston area interested in taking the first steps to enter the Artificial Intelligence (AI) and Machine Learning (ML) industry. It is a virtual, one-year extracurricular experience that equips students with the skills needed to secure a job in the fastest-growing areas of tech. Developed by industry and academic leaders, students master the skills necessary to become a successful machine learning engineer. This program is split into 3 sections: An ML Foundations course sponsored by Cornell, an industry project in the fall, and a Google Kaggle competition in the spring (hence, this very project). 
+<br><br>
+<div align="center">
+  <h3>
+    Learn more about Break Through Tech and its subsidiaries by clicking on the logo above!
+  </h3>
+</div>
+
+---
+
+
 [🔼 Back to top](#top)
 
 <!-- RESOURCES -->
