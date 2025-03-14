@@ -20,19 +20,19 @@
 
 
 
-### Ajibola Falade
+### [Ajibola Falade](https://www.github.com/Blash03)
 Ajibola (he/him) is a Computer Science student at Brandeis University. A fun fact about him is [ENTER HERE].
 <br><br>
-### Fridah Ntika
+### [Fridah Ntika](https://www.github.com/FridahNtika)
 Fridah (she/her) is a Data Science student at Wellesley College. A fun fact about her is [ENTER HERE].
 <br><br>
-### Ishita Kakkar
+### [Ishita Kakkar](https://github.com/ikakkar03)
 Ishita (she/her) is an honors Computer Science and Math student at UMass Amherst. A fun fact about her is [ENTER HERE].
 <br><br>
-### Kerem Farzaliyev
+### [Kerem Farzaliyev](https://www.github.com/KeremFarzaliyev)
 Kerem (he/him) is an Engineering Physics and Economics student at UMass Amherst. A fun fact about him is [ENTER HERE].
 <br><br>
-### Paula Sefia
+### [Paula Sefia](https://www.github.com/psefia)
 Paula (she/her) is a Computer Science and Cognitive Psychology student at Northeastern University. A fun fact about her is that she used to play 5 instruments in grade and middle school.
 <br><br><br>
 
@@ -148,21 +148,4 @@ ADD INFO ON WHAT AJL CAN DO WITH OUR NEW RESULTS AND HOW IT CAN ADVANCE EQUITY B
 
 <!-- CHALLENGES/LIMITATIONS -->
 ADD INFO ON WHAT WE FOUND TO BE CHALLENGING (e.g. fairlearn)
-[🔼 Back to top](#top)
-
-<!-- CONTACT US -->
-<div align="center">
-  <h1>
-    👋 Contact Us 👋
-    </h1>
-</div>
-
-For more details about our project, below are the best ways to contact our team:
-
-- **Ajibola**: https://www.github.com/Blash03
-- **Fridah**: https://www.github.com/FridahNtika
-- **Ishita**: https://github.com/ikakkar03
-- **Kerem**: https://www.github.com/KeremFarzaliyev
-- **Paula**: https://www.github.com/psefia
-#
 [🔼 Back to top](#top)
