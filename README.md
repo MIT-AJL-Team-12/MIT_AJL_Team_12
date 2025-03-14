@@ -2,7 +2,7 @@
 <div align="center">
   <img src="https://media.glamour.com/photos/5b9a4ffed4057a0ec3d2deee/16:9/w_800,h_450,c_limit/fenty-river.gif" height=400>
   <h1>
-    🫶🏻🫶🫶🏼🫶🏽🫶🏾🫶🏿 Equitable AI for Dermatology 🫶🏿🫶🏾🫶🏽🫶🏼🫶🫶🏻
+    🫶🏻🫶🫶🏼🫶🏽🫶🏾🫶🏿<br>Equitable AI for Dermatology<br>🫶🏿🫶🏾🫶🏽🫶🏼🫶🫶🏻
     <h3>Break Through Tech AI Algorithmic Justice League Team 12</h3>
     </h1>
   <br><br><br><br>
