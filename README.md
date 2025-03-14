@@ -98,9 +98,6 @@ Founded by Joy Buolamwini, the Algorithmic Justice League’s mission is to rais
   <h1>
     🤳🏻 Resources 🤳🏻
   </h1>
-</div>
-
-<div align="center">
  
   [<img src="https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2023/11/17-1.png" height=150>](https://drive.google.com/drive/u/2/folders/0AF4tjg4-0DrdUk9PVA)
   [<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFoP3fDlWVMF71lXyxD7Qp-S-FnFbarYTfww&s" height=150>](https://www.notion.so/AJL-Team-12-Project-1866596d1086800280defde41889322e)
@@ -114,9 +111,24 @@ Founded by Joy Buolamwini, the Algorithmic Justice League’s mission is to rais
 
 <br>
 
-<!-- BACKROUND -->
-ADD BACKGROUND INFO ON WHAT THE PROJECT WAS ABOUT
+<!-- EQUITABLE AI FOR DERMATOLOGY -->
+<div align="center">
+  
+  #
+  <h1>
+    🖐️ Equitable AI for Dermatology 🖐️
+  </h1>
+</div>
+
+<img align="left" src="https://www.enrichclinic.com.au/wp-content/uploads/2023/08/iStock-1410979275.jpg" height=210>
+<br>
+
+AI is transforming healthcare, yet dermatology AI tools often underperform for people with darker skin tones due to a lack of diverse training data. This can lead to diagnostic errors, delayed treatments, and health disparities for underserved communities. To combat the diagnostic errors, the goal is to train a model that can, as accurately as possible, classify 21 different skin conditions across diverse skin tones, as denoted by the Fitzpatrick Scale.
+
+<br><br><br>
 [🔼 Back to top](#top)
+
+<br>
 
 <!-- HISTORY OF MISCLASSIFICATION -->
 ADD BACKGROUND INFO ON THE HISTORY OF MISCLASSIFICATION BASED ON RACE OF ML MODELS NOT PROPERLY TRAINED
