@@ -111,6 +111,11 @@ Founded by Joy Buolamwini, the Algorithmic Justice League’s mission is to rais
 
 <br>
 
+<!-- SETUP -->
+ADD INFO ON HOW TO RUN THE MODEL AND PRODUCE A PREDICTION CSV
+[🔼 Back to top](#top)
+
+
 <!-- EQUITABLE AI FOR DERMATOLOGY -->
 <div align="center">
   
