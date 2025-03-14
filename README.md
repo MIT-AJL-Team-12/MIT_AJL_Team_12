@@ -121,7 +121,6 @@ Founded by Joy Buolamwini, the Algorithmic Justice League’s mission is to rais
 </div>
 
 <img align="left" src="https://www.enrichclinic.com.au/wp-content/uploads/2023/08/iStock-1410979275.jpg" height=210>
-<br>
 
 AI is transforming healthcare, yet dermatology AI tools often underperform for people with darker skin tones due to a lack of diverse training data. This can lead to diagnostic errors, delayed treatments, and health disparities for underserved communities. To combat the diagnostic errors, the goal is to train a model that can, as accurately as possible, classify 21 different skin conditions across diverse skin tones, as denoted by the Fitzpatrick Scale.
 
