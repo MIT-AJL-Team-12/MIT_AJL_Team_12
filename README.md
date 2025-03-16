@@ -4,7 +4,7 @@
   
   #
   <h1>
-    🫶🏻🫶🫶🏼🫶🏽🫶🏾🫶🏿<br>Equitable AI for Dermatology<br>🫶🏿🫶🏾🫶🏽🫶🏼🫶🫶🏻
+    🫶🏻🫶🏼🫶🫶🏽🫶🏾🫶🏿<br>Equitable AI for Dermatology<br>🫶🏿🫶🏾🫶🏽🫶🫶🏼🫶🏻
     <h3>Break Through Tech AI Algorithmic Justice League Team 12</h3>
   </h1>
   <br><br><br><br>
