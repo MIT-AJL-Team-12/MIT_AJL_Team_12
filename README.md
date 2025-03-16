@@ -101,7 +101,7 @@ Founded by Joy Buolamwini, the Algorithmic Justice League’s mission is to rais
  
   [<img src="https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2023/11/17-1.png" height=150>](https://drive.google.com/drive/u/2/folders/0AF4tjg4-0DrdUk9PVA)
   [<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFoP3fDlWVMF71lXyxD7Qp-S-FnFbarYTfww&s" height=150>](https://www.notion.so/AJL-Team-12-Project-1866596d1086800280defde41889322e)
-  [<img src="https://cdn.prod.website-files.com/5fc212183117036dc3c635d0/611f5ebe2709f0744c0f4413_Sourcing%20talent%20on%20Kaggle%20image.png" height=150>](https://www.kaggle.com/competitions/bttai-ajl-2025/leaderboard)
+  [<img src="https://cdn.prod.website-files.com/5fc212183117036dc3c635d0/611f5ebe2709f0744c0f4413_Sourcing%20talent%20on%20Kaggle%20image.png" height=150>](https://www.kaggle.com/competitions/bttai-ajl-2025/overview)
 
 </div>
 
@@ -127,7 +127,7 @@ ADD INFO ON HOW TO RUN THE MODEL AND PRODUCE A PREDICTION CSV
 
 <img align="left" src="https://www.enrichclinic.com.au/wp-content/uploads/2023/08/iStock-1410979275.jpg" height=210>
 
-AI is transforming healthcare, yet dermatology AI tools often underperform for people with darker skin tones due to a lack of diverse training data. This can lead to diagnostic errors, delayed treatments, and health disparities for underserved communities. To combat the diagnostic errors, the goal is to train a model that can, as accurately as possible, classify 21 different skin conditions across diverse skin tones, as denoted by the Fitzpatrick Scale.
+AI is transforming healthcare, yet dermatology AI tools often underperform for people with darker skin tones due to a lack of diverse training data. This can lead to diagnostic errors, delayed treatments, and health disparities for underserved communities. To combat the diagnostic errors, the goal is to train a model that can, as accurately as possible, classify 21 different skin conditions across diverse skin tones, as denoted by the Fitzpatrick Scale. The Fitzpatrick Scale, developed in 1975 by American dermatologist Thomas B. Fitzpatrick, is an objective classification system to denote how much melanin is present in one's skin, the effects of sun exposure on their skin, and the likelihood for them to get tanned or sunburnt by constant sun exposure. The image on the left shows the 6 categories of skin colors as denoted by the Fitzpatrick Scale. 
 
 <br><br><br>
 [🔼 Back to top](#top)
@@ -135,11 +135,37 @@ AI is transforming healthcare, yet dermatology AI tools often underperform for p
 <br>
 
 <!-- HISTORY OF MISCLASSIFICATION -->
-ADD BACKGROUND INFO ON THE HISTORY OF MISCLASSIFICATION BASED ON RACE OF ML MODELS NOT PROPERLY TRAINED
+<div align="center">
+  
+  #
+  <h1>
+    ✊🏿 Consequences of Misclassification ✊🏿
+  </h1>
+</div>
+
+<img align="left" src="https://miro.medium.com/v2/resize:fit:1400/0*_4G2kAbxNdu8gB0A" height=250>
+
+The purpose of Break Through Tech AI is to incorporate diverse perspectives that are often overlooked into the AI industry. It is quite fitting, as a result, that this project is related to mitigating the issue of misclassified skin conditions. Skin diseases on darker skin tend to be overlooked due to factors like less representation in datasets that models are trained on, the conditions being camoflauged by the darker skin, or people's assumptions of people with darker skin having less conditions due to their resistance to UV exposure. However, these skin conditions are still real and very much present, and training models that are unable to quantify that fairly could cause people with darker skin to suffer in silence with conditions they either do not understand or did not know were even present. 
+
+<br><br><br>
 [🔼 Back to top](#top)
 
-<!-- FITZPATRICK SCALE -->
-ADD BACKGROUND INFO ON WHAT FITZPATRICK SCALE IS
+<br>
+
+<!-- THE DATASET -->
+<div align="center">
+  
+  #
+  <h1>
+    ✍🏻 The Dataset ✍🏻
+  </h1>
+</div>
+
+<img align="left" src="https://media.discordapp.net/attachments/1333521648980328538/1335004586150199358/Fitzpatrick_Centaur.png?ex=67d7f0a8&is=67d69f28&hm=7f233fa189c1ccaafe807932acdac0a1c9130fea5fb7e636ea6015cd5bb15d1a&=&format=webp&quality=lossless" height=400>
+
+ADD BACKGROUND INFO ON WHAT THE DATASET IS, AND EXPLAIN HOW THE GRAPH ON THE RIGHT REPRESENTS THE DIFFRENCES IN DISTRIBUTION OF THE DATASET, ALLUDING TO WHAT WAS MENTIONED BEFORE ABOUT THE LACK OF REPRESENTATION OF DARKER TONES IN THE DATASET
+
+
 [🔼 Back to top](#top)
 
 <!-- DATA MANIPULATION STRATEGIES -->
@@ -158,10 +184,14 @@ ADD INFO ON VISUALIZATIONS
 ADD INFO ON OUR CURRENT ACCURACY SCORE AND WHAT THAT MEANS
 [🔼 Back to top](#top)
 
+<!-- CHALLENGES/LIMITATIONS -->
+ADD INFO ON WHAT WE FOUND TO BE CHALLENGING (e.g. fairlearn)
+[🔼 Back to top](#top)
+
 <!-- FUTURE AJL DIRECTIVES -->
 ADD INFO ON WHAT AJL CAN DO WITH OUR NEW RESULTS AND HOW IT CAN ADVANCE EQUITY BY CENTERING THOSE HISTORICALLY EXCLUDED IN AI
 [🔼 Back to top](#top)
 
-<!-- CHALLENGES/LIMITATIONS -->
-ADD INFO ON WHAT WE FOUND TO BE CHALLENGING (e.g. fairlearn)
+<!-- REFERENCES -->
+ADD REFERENCES
 [🔼 Back to top](#top)
