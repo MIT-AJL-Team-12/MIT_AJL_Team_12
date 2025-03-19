@@ -19,21 +19,20 @@
 </div>
 
 
-
-### [Ajibola Falade](https://www.github.com/Blash03)
-Ajibola (he/him) is a Computer Science student at Brandeis University. A fun fact about him is [ENTER HERE].
-<br><br>
 ### [Fridah Ntika](https://www.github.com/FridahNtika)
-Fridah (she/her) is a Data Science student at Wellesley College. A fun fact about her is [ENTER HERE].
+Fridah (she/her) is a Data Science student at Wellesley College. A fun fact about her is that she is one of the captains of our team!
 <br><br>
 ### [Ishita Kakkar](https://github.com/ikakkar03)
-Ishita (she/her) is an honors Computer Science and Math student at UMass Amherst. A fun fact about her is [ENTER HERE].
+Ishita (she/her) is an honors Computer Science and Math student at UMass Amherst. A fun fact about her is that she is one of the captains of our team!
+<br><br>
+### [Ajibola Falade](https://www.github.com/Blash03)
+Ajibola (he/him) is a Computer Science student at Brandeis University. A fun fact about him is that he developed a web-based interactive visualization using D3.js to analyze and present MBTA ridership data across Boston neighborhoods!
 <br><br>
 ### [Kerem Farzaliyev](https://www.github.com/KeremFarzaliyev)
-Kerem (he/him) is an Engineering Physics and Economics student at UMass Amherst. A fun fact about him is [ENTER HERE].
+Kerem (he/him) is an Engineering Physics and Economics student at UMass Amherst. A fun fact about him is that he loves learning languages!
 <br><br>
 ### [Paula Sefia](https://www.github.com/psefia)
-Paula (she/her) is a Computer Science and Cognitive Psychology student at Northeastern University. A fun fact about her is that she used to play 5 instruments in grade and middle school.
+Paula (she/her) is a Computer Science and Cognitive Psychology student at Northeastern University. A fun fact about her is that she used to play 5 instruments in grade and middle school!
 <br><br><br>
 
 [🔼 Back to top](#top)
@@ -145,7 +144,7 @@ AI is transforming healthcare, yet dermatology AI tools often underperform for p
 
 <img align="left" src="https://miro.medium.com/v2/resize:fit:1400/0*_4G2kAbxNdu8gB0A" height=250>
 
-The purpose of Break Through Tech AI is to incorporate diverse perspectives that are often overlooked into the AI industry. It is quite fitting, as a result, that this project is related to mitigating the issue of misclassified skin conditions. Skin diseases on darker skin tend to be overlooked due to factors like less representation in datasets that models are trained on, the conditions being camoflauged by the darker skin, or people's assumptions of people with darker skin having less conditions due to their resistance to UV exposure. However, these skin conditions are still real and very much present, and training models that are unable to quantify that fairly could cause people with darker skin to suffer in silence with conditions they either do not understand or did not know were even present. 
+The purpose of Break Through Tech AI is to incorporate diverse perspectives that are often overlooked into the AI industry. It is quite fitting, as a result, that this project is related to mitigating the issue of misclassified skin conditions. Skin diseases on darker skin tend to be overlooked due to factors like less representation in datasets that models are trained on, the conditions being camouflaged by the darker skin, or people's assumptions of people with darker skin having less conditions due to their resistance to UV exposure. However, these skin conditions are still real and very much present, and training models that are unable to quantify that fairly could cause people with darker skin to suffer in silence with conditions they either do not understand or did not know were even present. 
 
 <br><br><br>
 [🔼 Back to top](#top)
@@ -163,7 +162,7 @@ The purpose of Break Through Tech AI is to incorporate diverse perspectives that
 
 <img align="left" src="https://media.discordapp.net/attachments/1333521648980328538/1335004586150199358/Fitzpatrick_Centaur.png?ex=67d7f0a8&is=67d69f28&hm=7f233fa189c1ccaafe807932acdac0a1c9130fea5fb7e636ea6015cd5bb15d1a&=&format=webp&quality=lossless" height=400>
 
-ADD BACKGROUND INFO ON WHAT THE DATASET IS, AND EXPLAIN HOW THE GRAPH ON THE RIGHT REPRESENTS THE DIFFRENCES IN DISTRIBUTION OF THE DATASET, ALLUDING TO WHAT WAS MENTIONED BEFORE ABOUT THE LACK OF REPRESENTATION OF DARKER TONES IN THE DATASET
+Prior image classification models typically use datasets, such as the one provided to us, to train and test how well the model can classify new skin conditions based on the knowledge it has learned from previous training. The dataset we were given is a subset of the FitzPatrick17k dataset, which contains approximately 17,000 images of various dermatological conditions, ranging from serious to cosmetic, across a spectrum of skin tones according to the Fitzpatrick scale. For this competition, we worked with a subset of 4,500 images from that dataset. These images are categorized by both their corresponding Fitzpatrick skin tone scale and one of the 21 skin conditions included in the subset. The challenge creators intentionally curated the subset by adding more images of individuals with lighter skin tones (i.e., lower Fitzpatrick scale scores) than darker tones. This decision was made to address a well-documented gap in machine learning research, where there is often less data available on dermatological conditions for people with darker skin tones. As illustrated in the graph on the left, which shows the distribution of images across the Fitzpatrick skin tone categories, this imbalance in data is visible. Consequently, our team chose to address this issue by balancing the dataset using various tools we researched, ensuring an equitable representation of images across all Fitzpatrick skin tones.
 
 
 [🔼 Back to top](#top)
