@@ -189,9 +189,9 @@ ADD INFO ON VISUALIZATIONS
   </h1>
 </div>
 
-<img align="left" src="" height=250>
+<img align="left" src="ajl leaderboard.png" height=250>
 
-To evaluate our model's performance, we used the F1 score, harmonic mean of precision and recall, providing a single metric that balances false positives and false negatives. A score of 0.74880 (~74.88%) suggests the model is making correct predictions about 75% of the time in terms of how well it balances precision and recall and still has room for improvement.
+To evaluate our model's performance, we used the F1 score, harmonic mean of precision and recall, providing a single metric that balances false positives and false negatives. A score of 0.74880 (~74.88%) suggests the model is making correct predictions about 75% of the time in terms of how well it balances precision and recall. Our model shows promise in classifying skin conditions across diverse skin tones, but there is still room for improvement.
 
 <br><br><br>
 [🔼 Back to top](#top)
@@ -202,8 +202,19 @@ ADD INFO ON WHAT WE FOUND TO BE CHALLENGING (e.g. fairlearn)
 [🔼 Back to top](#top)
 
 <!-- FUTURE AJL DIRECTIVES -->
-ADD INFO ON WHAT AJL CAN DO WITH OUR NEW RESULTS AND HOW IT CAN ADVANCE EQUITY BY CENTERING THOSE HISTORICALLY EXCLUDED IN AI
+<div align="center">
+  
+  #
+  <h1>
+    What Can AJL Do and How Can It Advance Equity By Centering Those Historically Excluded In AI?
+  </h1>
+</div>
+
+Despite AI’s transformative potential in healthcare, dermatology models have historically failed people with darker skin due to biased datasets and a lack of representation. Our work directly addresses this gap and aligns with AJL’s mission to prevent AI harms and build equitable AI systems that serve historically excluded communities.
+
+<br><br><br>
 [🔼 Back to top](#top)
+<br>
 
 <!-- REFERENCES -->
 ADD REFERENCES
