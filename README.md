@@ -20,7 +20,7 @@
 
 
 ### [Fridah Ntika](https://www.github.com/FridahNtika)
-Fridah (she/her) is a Data Science student at Wellesley College. A fun fact about her is that she is one of the captains of our team!
+Fridah (she/her) is a Data Science student at Wellesley College. A fun fact about her is that she loves to travel and has visited over 10 countries!
 <br><br>
 ### [Ishita Kakkar](https://github.com/ikakkar03)
 Ishita (she/her) is an honors Computer Science and Math student at UMass Amherst. A fun fact about her is that she is one of the captains of our team!
@@ -181,7 +181,7 @@ ADD INFO ON VISUALIZATIONS
 [🔼 Back to top](#top)
 
 <!-- ACCURACY SCORE -->
-ADD INFO ON OUR CURRENT ACCURACY SCORE AND WHAT THAT MEANS
+To evaluate our model's performance, we used the F1 score, harmonic mean of precision and recall, providing a single metric that balances false positives and false negatives. A score of 0.74880 (~74.88%) suggests the model is making correct predictions about 75% of the time in terms of how well it balances precision and recall and still has room for improvement.
 [🔼 Back to top](#top)
 
 <!-- CHALLENGES/LIMITATIONS -->
