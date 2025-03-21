@@ -26,7 +26,7 @@ Fridah (she/her) is a Data Science student at Wellesley College. A fun fact abou
 Ishita (she/her) is an honors Computer Science and Math student at UMass Amherst. A fun fact about her is that she is one of the captains of our team!
 <br><br>
 ### [Ajibola Falade](https://www.github.com/Blash03)
-Ajibola (he/him) is a Computer Science student at Brandeis University. A fun fact about him is that he developed a web-based interactive visualization using D3.js to analyze and present MBTA ridership data across Boston neighborhoods!
+Ajibola (he/him) is a Computer Science student at Brandeis University. A fun fact about him is that he enjoys jazz music and has played the saxophone ever since he started school!
 <br><br>
 ### [Kerem Farzaliyev](https://www.github.com/KeremFarzaliyev)
 Kerem (he/him) is an Engineering Physics and Economics student at UMass Amherst. A fun fact about him is that he loves learning languages!
