@@ -181,8 +181,18 @@ ADD INFO ON VISUALIZATIONS
 [🔼 Back to top](#top)
 
 <!-- ACCURACY SCORE -->
+<div align="center">
+  
+  #
+  <h1>
+    The Accuracy Score
+  </h1>
+</div>
+
 To evaluate our model's performance, we used the F1 score, harmonic mean of precision and recall, providing a single metric that balances false positives and false negatives. A score of 0.74880 (~74.88%) suggests the model is making correct predictions about 75% of the time in terms of how well it balances precision and recall and still has room for improvement.
+<br><br><br>
 [🔼 Back to top](#top)
+<br>
 
 <!-- CHALLENGES/LIMITATIONS -->
 ADD INFO ON WHAT WE FOUND TO BE CHALLENGING (e.g. fairlearn)
