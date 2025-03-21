@@ -160,12 +160,13 @@ The purpose of Break Through Tech AI is to incorporate diverse perspectives that
   </h1>
 </div>
 
-<img align="left" src="https://media.discordapp.net/attachments/1333521648980328538/1335004586150199358/Fitzpatrick_Centaur.png?ex=67d7f0a8&is=67d69f28&hm=7f233fa189c1ccaafe807932acdac0a1c9130fea5fb7e636ea6015cd5bb15d1a&=&format=webp&quality=lossless" height=400>
+<img align="left" src="https://cdn.discordapp.com/attachments/1333521648980328538/1335004586150199358/Fitzpatrick_Centaur.png?ex=67dddf68&is=67dc8de8&hm=f59a0829aa914055ed0798c0fd357d76ef40f82a02023faf48a4ede2c487f21a&format=webp&quality=lossless&width=880&height=684" height=400>
 
 Prior image classification models typically use datasets, such as the one provided to us, to train and test how well the model can classify new skin conditions based on the knowledge it has learned from previous training. The dataset we were given is a subset of the FitzPatrick17k dataset, which contains approximately 17,000 images of various dermatological conditions, ranging from serious to cosmetic, across a spectrum of skin tones according to the Fitzpatrick scale. For this competition, we worked with a subset of 4,500 images from that dataset. These images are categorized by both their corresponding Fitzpatrick skin tone scale and one of the 21 skin conditions included in the subset. The challenge creators intentionally curated the subset by adding more images of individuals with lighter skin tones (i.e., lower Fitzpatrick scale scores) than darker tones. This decision was made to address a well-documented gap in machine learning research, where there is often less data available on dermatological conditions for people with darker skin tones. As illustrated in the graph on the left, which shows the distribution of images across the Fitzpatrick skin tone categories, this imbalance in data is visible. Consequently, our team chose to address this issue by balancing the dataset using various tools we researched, ensuring an equitable representation of images across all Fitzpatrick skin tones.
 
-
+<br><br><br>
 [🔼 Back to top](#top)
+<br>
 
 <!-- DATA MANIPULATION STRATEGIES -->
 ADD INFO ON WHAT NEEDED TO BE DONE TO AUGMENT THE PICTURES OF THOSE IDENTIFIED IN LOWER FITZPATRICK CLASSES
