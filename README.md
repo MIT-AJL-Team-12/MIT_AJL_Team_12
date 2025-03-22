@@ -64,10 +64,12 @@ Break Through Tech brings together college students in the greater Boston area i
   </h1>
 </div>
 
-[<img align="left" src="https://media.licdn.com/dms/image/v2/C5112AQFcWX0i6N4Dcg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1520243519212?e=2147483647&v=beta&t=9bXNPCIz_VNyhstF7qXp2A_4wUwBv2Q0O02Y2YSs7wY" height=210>](https://www.ajl.org/about)
+[<img align="left" src="https://media.licdn.com/dms/image/v2/C5112AQFcWX0i6N4Dcg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1520243519212?e=2147483647&v=beta&t=9bXNPCIz_VNyhstF7qXp2A_4wUwBv2Q0O02Y2YSs7wY" height=300>](https://www.ajl.org/about)
 <br><br>
 Founded by Joy Buolamwini, the Algorithmic Justice League’s mission is to raise public awareness about the impacts of AI, equip advocates with resources to bolster campaigns, build the voice and choice of the most impacted communities, and galvanize researchers, policymakers, and industry practitioners to prevent AI harms.
-<br><br><br><br><br>
+
+<br><br><br><br><br><br><br>
+
 <div align="center">
   <h3>
     Learn more about the Algorithmic Justice League by clicking on the picture above!
@@ -139,7 +141,7 @@ instructions = {
   </h1>
 </div>
 
-<img align="left" src="https://www.enrichclinic.com.au/wp-content/uploads/2023/08/iStock-1410979275.jpg" height=210>
+<img align="left" src="https://www.enrichclinic.com.au/wp-content/uploads/2023/08/iStock-1410979275.jpg" height=190>
 
 AI is transforming healthcare, yet dermatology AI tools often underperform for people with darker skin tones due to a lack of diverse training data. This can lead to diagnostic errors, delayed treatments, and health disparities for underserved communities. To combat the diagnostic errors, the goal is to train a model that can, as accurately as possible, classify 21 different skin conditions across diverse skin tones, as denoted by the Fitzpatrick Scale. The Fitzpatrick Scale, developed in 1975 by American dermatologist Thomas B. Fitzpatrick, is an objective classification system to indicate how much melanin is present in one's skin, the effects of sun exposure on their skin, and the likelihood of getting tanned or sunburnt by constant sun exposure. The image on the left shows the 6 categories of skin colors as denoted by the Fitzpatrick Scale. 
 
@@ -156,7 +158,7 @@ AI is transforming healthcare, yet dermatology AI tools often underperform for p
   </h1>
 </div>
 
-<img align="left" src="https://miro.medium.com/v2/resize:fit:1400/0*_4G2kAbxNdu8gB0A" height=250>
+<img align="left" src="https://miro.medium.com/v2/resize:fit:1400/0*_4G2kAbxNdu8gB0A" height=230>
 
 The purpose of Break Through Tech AI is to incorporate diverse perspectives that are often overlooked in the AI industry. It is quite fitting, as a result, that this project is related to mitigating the issue of misclassified skin conditions. Skin diseases on darker skin tend to be overlooked due to factors like less representation in datasets that models are trained on, the conditions being camouflaged by the darker skin, or people's assumptions of people with darker skin having fewer conditions due to their resistance to UV exposure. However, these skin conditions are still real and very much present, and training models that are unable to quantify that fairly could cause people with darker skin to suffer in silence with conditions they either do not understand or did not know were even present. Despite AI’s transformative potential in healthcare, dermatology models have historically failed people with darker skin due to biased datasets and a lack of representation. Our work directly addresses this gap and aligns with AJL’s mission to prevent AI harms and build equitable AI systems that serve historically excluded communities.
 
@@ -173,7 +175,7 @@ The purpose of Break Through Tech AI is to incorporate diverse perspectives that
   </h1>
 </div>
 
-<img align="left" src="https://cdn.discordapp.com/attachments/1333521648980328538/1335004586150199358/Fitzpatrick_Centaur.png?ex=67dddf68&is=67dc8de8&hm=f59a0829aa914055ed0798c0fd357d76ef40f82a02023faf48a4ede2c487f21a&format=webp&quality=lossless&width=880&height=684" height=400>
+<img align="left" src="https://cdn.discordapp.com/attachments/1333521648980328538/1335004586150199358/Fitzpatrick_Centaur.png?ex=67dddf68&is=67dc8de8&hm=f59a0829aa914055ed0798c0fd357d76ef40f82a02023faf48a4ede2c487f21a&format=webp&quality=lossless&width=880&height=684" height=350>
 
 Prior image classification models typically use datasets, such as the one provided to us, to train and test how well the model can classify new skin conditions based on the knowledge it has learned from previous training. The dataset we were given is a subset of the FitzPatrick17k dataset, which contains approximately 17,000 images of various dermatological conditions, ranging from serious to cosmetic, across a spectrum of skin tones according to the Fitzpatrick scale. For this competition, we worked with a subset of 4,500 images from that dataset. These images are categorized by both their corresponding Fitzpatrick skin tone scale and one of the 21 skin conditions included in the subset. The challenge creators intentionally curated the subset by adding more images of individuals with lighter skin tones (i.e., lower Fitzpatrick scale scores) than darker tones. This decision was made to address a well-documented gap in machine learning research, where there is often less data available on dermatological conditions for people with darker skin tones. As illustrated in the graph on the left, which shows the distribution of images across the Fitzpatrick skin tone categories, this imbalance in data is visible. Consequently, our team chose to address this issue by balancing the dataset using various tools we researched, ensuring an equitable representation of images across all Fitzpatrick skin tones.
 
@@ -190,7 +192,7 @@ Prior image classification models typically use datasets, such as the one provid
   </h1>
 </div>
 
-<img align="left" src="https://viso.ai/wp-content/uploads/2023/12/data-augmentation-for-computer-vision-techniques-scaled.jpg" height=300>
+<img align="left" src="https://viso.ai/wp-content/uploads/2023/12/data-augmentation-for-computer-vision-techniques-scaled.jpg" height=260>
 
 We first identified that images representing lower Fitzpatrick scale classes were underrepresented in our dataset, leading to potential biases in model training. To address this issue, we applied a WeightedRandomSampler, which ensured that images from the underrepresented darker skin tones were sampled more frequently during training. Additionally, we tested various augmentations, including horizontal flips and slight color jitter. However, we discovered that excessive color or rotation distortions sometimes harmed the model’s performance, likely because subtle color and orientation cues are essential in dermatology. As a result, we ultimately used only mild augmentations to balance the need for variability while preserving medically relevant features.
 
@@ -207,11 +209,11 @@ We first identified that images representing lower Fitzpatrick scale classes wer
   </h1>
 </div>
 
-<img align="left" src="https://i0.wp.com/eos.org/wp-content/uploads/2020/07/data-streams-eos-august.png?fit=820%2C615&ssl=1" height=300>
+<img align="left" src="https://i0.wp.com/eos.org/wp-content/uploads/2020/07/data-streams-eos-august.png?fit=820%2C615&ssl=1" height=350>
 
 We initially experimented with basic CNN architectures (such as ResNet and DenseNet) and MLP‐style models (like ResMLP and Mixer), which provided early baselines but did not reach high accuracy on our relatively small dataset. We then tried Vision Transformers (ViT and Swin) and found that the Swin Transformer consistently achieved better results in single‐split experiments. We also explored ConvNeXt, but in our tests, it did not outperform the Swin Transformer. Ultimately, our best‐performing approach used the Swin Transformer backbone, a small embedding layer for the Fitzpatrick scale input, and mild data augmentations. This setup achieved a test accuracy of around 76% when trained with a learning rate of approximately 3e‐5, label smoothing of 0.1, and no partial freezing of the backbone.
 
-<br><br><br>
+<br><br><br><br><br>
 [🔼 Back to top](#top)
 <br>
 
@@ -225,7 +227,7 @@ We initially experimented with basic CNN architectures (such as ResNet and Dense
   </h1>
 </div>
 
-<img align="left" src="ajl leaderboard.png" height=350>
+<img align="left" src="ajl leaderboard.png" height=300>
 To understand the model’s strengths and weaknesses, we produced confusion matrices that illustrated improved coverage of darker Fitzpatrick classes after applying the WeightedRandomSampler. We also plotted training loss and accuracy curves, confirming that the model converged around epochs 15–20. For completeness, we generated sample augmented images to ensure that the horizontal flips and minimal color jitter did not excessively distort critical medical features. We used the F1 score, harmonic mean of precision, and recall to evaluate our model's performance, providing a metric that balances false positives and false negatives. A score of 0.75953 (~76%) suggests the model is making correct predictions about 76% of the time in terms of how well it balances precision and recall. Our model shows promise in classifying skin conditions across diverse skin tones, but there is still room for improvement.
 
 <br><br><br>
