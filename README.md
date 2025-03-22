@@ -16,27 +16,45 @@
   <h1>
     🤝🏿 Contributors 🤝🏿
   </h1>
+
+
+
+### [Fridah Ntika](https://www.github.com/FridahNtika)  | Co-Capitan | she/her 
+Fridah is a Data Science student at Wellesley College. 
+
+Fun Fact: she loves to travel and has visited over 10 countries!
+
+<br><br>
+
+### [Ishita Kakkar](https://github.com/ikakkar03) | Co-Capitan | she/her
+Ishita is an honors Computer Science and Math student at UMass Amherst. 
+
+Fun Fact: she does calligraphy and graphic design projects for small businesses!
+
+<br><br>
+
+### [Ajibola Falade](https://www.github.com/Blash03) | Developer | he/him
+Ajibola is a Computer Science student at Brandeis University. 
+
+Fun Fact: he enjoys jazz music and has played the saxophone ever since he started school!
+
+<br><br>
+
+### [Kerem Farzaliyev](https://www.github.com/KeremFarzaliyev) | Developer | he/him
+Kerem is an Engineering Physics and Economics student at UMass Boston. 
+
+Fun Fact: he loves learning languages!
+
+<br><br>
+
+### [Paula Sefia](https://www.github.com/psefia) | Developer | she/her
+Paula is a Computer Science and Cognitive Psychology student at Northeastern University. 
+
+Fun Fact: she used to play 5 instruments in grade and middle school!
 </div>
 
-
-### [Fridah Ntika](https://www.github.com/FridahNtika)
-Fridah (she/her) is a Data Science student at Wellesley College. A fun fact about her is that she loves to travel and has visited over 10 countries!
-<br><br>
-### [Ishita Kakkar](https://github.com/ikakkar03)
-Ishita (she/her) is an honors Computer Science and Math student at UMass Amherst. A fun fact about her is that she is one of the captains of our team!
-<br><br>
-### [Ajibola Falade](https://www.github.com/Blash03)
-Ajibola (he/him) is a Computer Science student at Brandeis University. A fun fact about him is that he enjoys jazz music and has played the saxophone ever since he started school!
-<br><br>
-### [Kerem Farzaliyev](https://www.github.com/KeremFarzaliyev)
-Kerem (he/him) is an Engineering Physics and Economics student at UMass Boston. A fun fact about him is that he loves learning languages!
-<br><br>
-### [Paula Sefia](https://www.github.com/psefia)
-Paula (she/her) is a Computer Science and Cognitive Psychology student at Northeastern University. A fun fact about her is that she used to play 5 instruments in grade and middle school!
 <br><br><br>
-
 [🔼 Back to top](#top)
-
 <br>
 
 
@@ -51,7 +69,7 @@ Paula (she/her) is a Computer Science and Cognitive Psychology student at Northe
 
 [<img align="left" src="https://github.com/user-attachments/assets/e239a754-d90c-4c23-94ca-820ee7d5d052" height=210>](https://www.breakthroughtech.org/programs/the-ai-program/)
 
-Break Through Tech AI is a Cornell Tech initiative that brings together college students in the greater Boston area interested in taking the first steps to enter the Artificial Intelligence (AI) and Machine Learning (ML) industry. It is a virtual, one-year extracurricular experience that equips students with the skills needed to secure a job in the fastest-growing areas of tech. Developed by industry and academic leaders, students master the skills necessary to become a successful machine learning engineer. This program is split into 3 sections: An ML Foundations course sponsored by Cornell, an industry project in the fall, and a Google Kaggle competition in the spring (hence, this very project). 
+Break Through Tech brings together college students in the greater Boston area interested in taking the first steps to enter the Artificial Intelligence (AI) and Machine Learning (ML) industry. It is a virtual, one-year extracurricular experience that equips students with the skills needed to secure a job in the fastest-growing areas of tech. Developed by industry and academic leaders, students master the skills necessary to become a successful machine learning engineer. This program is split into 3 sections: An ML Foundations course sponsored by Cornell, an industry project in the fall, and a Google Kaggle competition in the spring (hence, this very project). 
 <br><br>
 <div align="center">
   <h3>
@@ -60,9 +78,7 @@ Break Through Tech AI is a Cornell Tech initiative that brings together college 
 </div>
 
 <br><br><br>
-
 [🔼 Back to top](#top)
-
 <br>
 
 <!-- ALGORITHMIC JUSTICE LEAGUE -->
@@ -85,9 +101,7 @@ Founded by Joy Buolamwini, the Algorithmic Justice League’s mission is to rais
 </div>
 
 <br><br>
-
 [🔼 Back to top](#top)
-
 <br>
 
 <!-- RESOURCES -->
@@ -105,15 +119,42 @@ Founded by Joy Buolamwini, the Algorithmic Justice League’s mission is to rais
 </div>
 
 <br><br>
-
 [🔼 Back to top](#top)
-
 <br>
 
 <!-- SETUP -->
-Install all necessary dependencies, including Python 3.7+ and the required libraries such as PyTorch and timm. Place the training images under bttai-ajl-2025/train/train/<disease_class> and the test images under bttai-ajl-2025/test/test, and ensure that train.csv and test.csv (containing at least "md5hash" and "fitzpatrick_scale") are in the bttai-ajl-2025 folder. Run the training script or notebook cell that reads train.csv, scans each disease class subfolder, applies mild augmentations, trains the chosen model (for example, a Swin Transformer), and saves the best checkpoint (such as best_model_swin.pt). Load this saved checkpoint in an inference script or notebook cell, read each test image using test.csv and the test folder, pass them through the model to obtain predictions, and write a submission.csv file with two columns: "md5hash" and "label". Finally, submit or evaluate the resulting submission.csv against the test set.
-[🔼 Back to top](#top)
+<div align="center">
+  
+  #
+  <h1>
+    🫵🏽 Setup 🫵🏽
+  </h1>
 
+</div>
+
+```python
+
+instructions = {
+
+'Step 1' : 'Install all necessary dependencies, including Python 3.7+ and the required libraries such as PyTorch and timm.',
+
+'Step 2' : 'Place the training images under bttai-ajl-2025/train/train/<disease_class> and the test images under bttai-ajl-2025/test/test',
+
+'Step 3' : 'Ensure that train.csv and test.csv (containing at least "md5hash" and "fitzpatrick_scale") are in the bttai-ajl-2025 folder',
+
+'Step 4' : 'Run the training script or notebook cell that reads train.csv, scans each disease class subfolder, applies mild augmentations, trains the chosen model (for example, a Swin Transformer), and saves the best checkpoint (such as best_model_swin.pt)',
+
+'Step 5' : 'Load this saved checkpoint in an inference script or notebook cell, read each test image using test.csv and the test folder, pass them through the model to obtain predictions, and write a submission.csv file with two columns: "md5hash" and "label"'
+
+'Step 6' : 'Submit or evaluate the resulting submission.csv against the test set'
+
+}
+
+```
+
+<br><br><br>
+[🔼 Back to top](#top)
+<br>
 
 <!-- EQUITABLE AI FOR DERMATOLOGY -->
 <div align="center">
@@ -126,11 +167,10 @@ Install all necessary dependencies, including Python 3.7+ and the required libra
 
 <img align="left" src="https://www.enrichclinic.com.au/wp-content/uploads/2023/08/iStock-1410979275.jpg" height=210>
 
-AI is transforming healthcare, yet dermatology AI tools often underperform for people with darker skin tones due to a lack of diverse training data. This can lead to diagnostic errors, delayed treatments, and health disparities for underserved communities. To combat the diagnostic errors, the goal is to train a model that can, as accurately as possible, classify 21 different skin conditions across diverse skin tones, as denoted by the Fitzpatrick Scale. The Fitzpatrick Scale, developed in 1975 by American dermatologist Thomas B. Fitzpatrick, is an objective classification system to denote how much melanin is present in one's skin, the effects of sun exposure on their skin, and the likelihood for them to get tanned or sunburnt by constant sun exposure. The image on the left shows the 6 categories of skin colors as denoted by the Fitzpatrick Scale. 
+AI is transforming healthcare, yet dermatology AI tools often underperform for people with darker skin tones due to a lack of diverse training data. This can lead to diagnostic errors, delayed treatments, and health disparities for underserved communities. To combat the diagnostic errors, the goal is to train a model that can, as accurately as possible, classify 21 different skin conditions across diverse skin tones, as denoted by the Fitzpatrick Scale. The Fitzpatrick Scale, developed in 1975 by American dermatologist Thomas B. Fitzpatrick, is an objective classification system to indicate how much melanin is present in one's skin, the effects of sun exposure on their skin, and the likelihood of getting tanned or sunburnt by constant sun exposure. The image on the left shows the 6 categories of skin colors as denoted by the Fitzpatrick Scale. 
 
 <br><br><br>
 [🔼 Back to top](#top)
-
 <br>
 
 <!-- HISTORY OF MISCLASSIFICATION -->
@@ -138,17 +178,16 @@ AI is transforming healthcare, yet dermatology AI tools often underperform for p
   
   #
   <h1>
-    ✊🏿 Consequences of Misclassification ✊🏿
+    👎🏼 Consequences of Misclassification 👎🏼
   </h1>
 </div>
 
 <img align="left" src="https://miro.medium.com/v2/resize:fit:1400/0*_4G2kAbxNdu8gB0A" height=250>
 
-The purpose of Break Through Tech AI is to incorporate diverse perspectives that are often overlooked into the AI industry. It is quite fitting, as a result, that this project is related to mitigating the issue of misclassified skin conditions. Skin diseases on darker skin tend to be overlooked due to factors like less representation in datasets that models are trained on, the conditions being camouflaged by the darker skin, or people's assumptions of people with darker skin having less conditions due to their resistance to UV exposure. However, these skin conditions are still real and very much present, and training models that are unable to quantify that fairly could cause people with darker skin to suffer in silence with conditions they either do not understand or did not know were even present. 
+The purpose of Break Through Tech AI is to incorporate diverse perspectives that are often overlooked in the AI industry. It is quite fitting, as a result, that this project is related to mitigating the issue of misclassified skin conditions. Skin diseases on darker skin tend to be overlooked due to factors like less representation in datasets that models are trained on, the conditions being camouflaged by the darker skin, or people's assumptions of people with darker skin having fewer conditions due to their resistance to UV exposure. However, these skin conditions are still real and very much present, and training models that are unable to quantify that fairly could cause people with darker skin to suffer in silence with conditions they either do not understand or did not know were even present. Despite AI’s transformative potential in healthcare, dermatology models have historically failed people with darker skin due to biased datasets and a lack of representation. Our work directly addresses this gap and aligns with AJL’s mission to prevent AI harms and build equitable AI systems that serve historically excluded communities.
 
 <br><br><br>
 [🔼 Back to top](#top)
-
 <br>
 
 <!-- THE DATASET -->
@@ -156,7 +195,7 @@ The purpose of Break Through Tech AI is to incorporate diverse perspectives that
   
   #
   <h1>
-    ✍🏻 The Dataset ✍🏻
+    ✍🏾 The Dataset ✍🏾
   </h1>
 </div>
 
@@ -168,55 +207,85 @@ Prior image classification models typically use datasets, such as the one provid
 [🔼 Back to top](#top)
 <br>
 
-<!-- DATA MANIPULATION STRATEGIES -->
-We first identified that images representing lower Fitzpatrick scale classes were underrepresented in our dataset, leading to potential biases in model training. To address this issue, we applied a WeightedRandomSampler, which ensured that images from the underrepresented darker skin tones were sampled more frequently during training. Additionally, we tested various augmentations, including horizontal flips and slight color jitter. However, we discovered that excessive color or rotation distortions sometimes harmed the model’s performance, likely because subtle color and orientation cues are essential in dermatology. As a result, we ultimately used only mild augmentations to balance the need for variability with the preservation of medically relevant features.
-[🔼 Back to top](#top)
-
-<!-- MODEL -->
-We initially experimented with basic CNN architectures (such as ResNet and DenseNet) and MLP‐style models (like ResMLP and Mixer), which provided early baselines but did not reach high accuracy on our relatively small dataset. We then tried Vision Transformers (ViT and Swin) and found that the Swin Transformer consistently achieved better results in single‐split experiments. We also explored ConvNeXt, but in our tests, it did not outperform the Swin Transformer. Ultimately, our best‐performing approach used the Swin Transformer backbone, a small embedding layer for the Fitzpatrick scale input, and mild data augmentations. This setup achieved a test accuracy of around 76% when trained with a learning rate of approximately 3e‐5, label smoothing of 0.1, and no partial freezing of the backbone.
-[🔼 Back to top](#top)
-
-<!-- VISUALIZATIONS -->
-In order to understand the model’s strengths and weaknesses, we produced confusion matrices that illustrated improved coverage of darker Fitzpatrick classes after applying the WeightedRandomSampler. We also plotted training loss and accuracy curves, confirming that the model converged around epochs 15–20. For completeness, we generated sample augmented images to ensure that the horizontal flips and minimal color jitter did not excessively distort critical medical features.
-[🔼 Back to top](#top)
-
-<!-- ACCURACY SCORE -->
+<!-- DATA AUGMENTATION STRATEGIES -->
 <div align="center">
   
   #
   <h1>
-    The Accuracy Score
+    💅🏿 Data Augmentation Strategies 💅🏿
   </h1>
 </div>
 
-<img align="left" src="ajl leaderboard.png" height=250>
+<img align="left" src="https://viso.ai/wp-content/uploads/2023/12/data-augmentation-for-computer-vision-techniques-scaled.jpg" height=300>
 
-To evaluate our model's performance, we used the F1 score, harmonic mean of precision and recall, providing a single metric that balances false positives and false negatives. A score of 0.75953 (~76%) suggests the model is making correct predictions about 76% of the time in terms of how well it balances precision and recall. Our model shows promise in classifying skin conditions across diverse skin tones, but there is still room for improvement.
+We first identified that images representing lower Fitzpatrick scale classes were underrepresented in our dataset, leading to potential biases in model training. To address this issue, we applied a WeightedRandomSampler, which ensured that images from the underrepresented darker skin tones were sampled more frequently during training. Additionally, we tested various augmentations, including horizontal flips and slight color jitter. However, we discovered that excessive color or rotation distortions sometimes harmed the model’s performance, likely because subtle color and orientation cues are essential in dermatology. As a result, we ultimately used only mild augmentations to balance the need for variability while preserving medically relevant features.
+
+<br><br><br>
+[🔼 Back to top](#top)
+<br>
+
+<!-- THE MODEL -->
+<div align="center">
+  
+  #
+  <h1>
+    ✌🏻 The Model ✌🏻
+  </h1>
+</div>
+
+<img align="left" src="https://i0.wp.com/eos.org/wp-content/uploads/2020/07/data-streams-eos-august.png?fit=820%2C615&ssl=1" height=300>
+
+We initially experimented with basic CNN architectures (such as ResNet and DenseNet) and MLP‐style models (like ResMLP and Mixer), which provided early baselines but did not reach high accuracy on our relatively small dataset. We then tried Vision Transformers (ViT and Swin) and found that the Swin Transformer consistently achieved better results in single‐split experiments. We also explored ConvNeXt, but in our tests, it did not outperform the Swin Transformer. Ultimately, our best‐performing approach used the Swin Transformer backbone, a small embedding layer for the Fitzpatrick scale input, and mild data augmentations. This setup achieved a test accuracy of around 76% when trained with a learning rate of approximately 3e‐5, label smoothing of 0.1, and no partial freezing of the backbone.
+
+<br><br><br>
+[🔼 Back to top](#top)
+<br>
+
+
+<!-- MODEL EVALUATIONS -->
+<div align="center">
+  
+  #
+  <h1>
+    ☝🏽 Evaluating the Model ☝🏽
+  </h1>
+</div>
+
+<img align="left" src="ajl leaderboard.png" height=350>
+To understand the model’s strengths and weaknesses, we produced confusion matrices that illustrated improved coverage of darker Fitzpatrick classes after applying the WeightedRandomSampler. We also plotted training loss and accuracy curves, confirming that the model converged around epochs 15–20. For completeness, we generated sample augmented images to ensure that the horizontal flips and minimal color jitter did not excessively distort critical medical features. We used the F1 score, harmonic mean of precision, and recall to evaluate our model's performance, providing a metric that balances false positives and false negatives. A score of 0.75953 (~76%) suggests the model is making correct predictions about 76% of the time in terms of how well it balances precision and recall. Our model shows promise in classifying skin conditions across diverse skin tones, but there is still room for improvement.
 
 <br><br><br>
 [🔼 Back to top](#top)
 <br>
 
 <!-- CHALLENGES/LIMITATIONS -->
-One of our main challenges was integrating fairness metrics and tools (like fairlearn) to measure and mitigate performance disparities across Fitzpatrick scales. Although we initially planned to use these frameworks, we found that our small dataset and the complexity of advanced fairness mitigation techniques made it difficult to incorporate them without sacrificing overall accuracy. We also recognized that single train/val splits can produce deceptively high validation accuracy if the split is “lucky.” In contrast, cross‐validation often yields lower but more reliable estimates of performance on each fold, which may ultimately lead to better generalization if models are ensembled. Finally, we acknowledged that the domain variability in dermatology images—particularly the subtle color and orientation cues—made it challenging to find the right balance of augmentations without harming the model’s ability to learn medically relevant patterns.
-[🔼 Back to top](#top)
-
-<!-- FUTURE AJL DIRECTIVES -->
 <div align="center">
   
   #
   <h1>
-    What Can AJL Do and How Can It Advance Equity By Centering Those Historically Excluded In AI?
+    💪 Challenges and Limitations 💪
   </h1>
 </div>
 
-Despite AI’s transformative potential in healthcare, dermatology models have historically failed people with darker skin due to biased datasets and a lack of representation. Our work directly addresses this gap and aligns with AJL’s mission to prevent AI harms and build equitable AI systems that serve historically excluded communities.
+<img align="left" src="https://fairlearn.org/images/fairlearn-meta-image.jpg" height=250>
+
+One of our main challenges was integrating fairness metrics and tools (like fairlearn) to measure and mitigate performance disparities across Fitzpatrick scales. Although we initially planned to use these frameworks, we found that our small dataset and the complexity of advanced fairness mitigation techniques made it difficult to incorporate them without sacrificing overall accuracy. We also recognized that single train/val splits can produce deceptively high validation accuracy if the split is “lucky.” In contrast, cross‐validation often yields lower but more reliable estimates of performance on each fold, which may ultimately lead to better generalization if models are ensembled. Finally, we acknowledged that the domain variability in dermatology images, particularly the subtle color and orientation cues, made it challenging to find the right balance of augmentations without harming the model’s ability to learn medically relevant patterns.
 
 <br><br><br>
 [🔼 Back to top](#top)
 <br>
 
+
 <!-- REFERENCES -->
+<div align="center">
+  
+  #
+  <h1>
+    👐🏼 References 👐🏼
+  </h1>
+</div>
+<br>
+
 Mansouri, O., AsgarianDehkordi, H., Kolaei, T., Xiao, Y., & Rivaz, H. (2023). Medical Image Classification with KAN-Integrated Transformers and Dilated Neighborhood Attention. arXiv:2304.2025
 
 Chen, S., Wang, H., et al. (2021). TransMed: Transforming Multi-Modal Medical Image Classification. arXiv:2104.03807
@@ -231,4 +300,6 @@ Liu, Z., Lin, Y., Cao, Y., et al. (2021). Swin Transformer: Hierarchical Vision 
 
 Liu, Z., Mao, H., Wu, C., et al. (2022). A ConvNet for the 2020s (ConvNeXt). In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).
 
+<br><br><br>
 [🔼 Back to top](#top)
+<br>
