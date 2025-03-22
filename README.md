@@ -213,7 +213,7 @@ We first identified that images representing lower Fitzpatrick scale classes wer
 
 We initially experimented with basic CNN architectures (such as ResNet and DenseNet) and MLP‐style models (like ResMLP and Mixer), which provided early baselines but did not reach high accuracy on our relatively small dataset. We then tried Vision Transformers (ViT and Swin) and found that the Swin Transformer consistently achieved better results in single‐split experiments. We also explored ConvNeXt, but in our tests, it did not outperform the Swin Transformer. Ultimately, our best‐performing approach used the Swin Transformer backbone, a small embedding layer for the Fitzpatrick scale input, and mild data augmentations. This setup achieved a test accuracy of around 76% when trained with a learning rate of approximately 3e‐5, label smoothing of 0.1, and no partial freezing of the backbone.
 
-<br><br><br><br><br>
+<br><br><br>
 [🔼 Back to top](#top)
 <br>
 
