@@ -29,7 +29,7 @@ Ishita (she/her) is an honors Computer Science and Math student at UMass Amherst
 Ajibola (he/him) is a Computer Science student at Brandeis University. A fun fact about him is that he enjoys jazz music and has played the saxophone ever since he started school!
 <br><br>
 ### [Kerem Farzaliyev](https://www.github.com/KeremFarzaliyev)
-Kerem (he/him) is an Engineering Physics and Economics student at UMass Amherst. A fun fact about him is that he loves learning languages!
+Kerem (he/him) is an Engineering Physics and Economics student at UMass Boston. A fun fact about him is that he loves learning languages!
 <br><br>
 ### [Paula Sefia](https://www.github.com/psefia)
 Paula (she/her) is a Computer Science and Cognitive Psychology student at Northeastern University. A fun fact about her is that she used to play 5 instruments in grade and middle school!
