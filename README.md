@@ -111,7 +111,7 @@ Founded by Joy Buolamwini, the Algorithmic Justice League’s mission is to rais
 <br>
 
 <!-- SETUP -->
-ADD INFO ON HOW TO RUN THE MODEL AND PRODUCE A PREDICTION CSV
+Install all necessary dependencies, including Python 3.7+ and the required libraries such as PyTorch and timm. Place the training images under bttai-ajl-2025/train/train/<disease_class> and the test images under bttai-ajl-2025/test/test, and ensure that train.csv and test.csv (containing at least "md5hash" and "fitzpatrick_scale") are in the bttai-ajl-2025 folder. Run the training script or notebook cell that reads train.csv, scans each disease class subfolder, applies mild augmentations, trains the chosen model (for example, a Swin Transformer), and saves the best checkpoint (such as best_model_swin.pt). Load this saved checkpoint in an inference script or notebook cell, read each test image using test.csv and the test folder, pass them through the model to obtain predictions, and write a submission.csv file with two columns: "md5hash" and "label". Finally, submit or evaluate the resulting submission.csv against the test set.
 [🔼 Back to top](#top)
 
 
