@@ -242,12 +242,12 @@ We initially experimented with basic CNN architectures (such as ResNet and Dense
 <br>
 
 
-<!-- MODEL EVALUATIONS -->
+<!-- MODEL EVALUATION AND ACCURACY -->
 <div align="center">
   
   #
   <h1>
-    ☝🏽 Evaluating the Model ☝🏽
+    ☝🏽 Evaluation and Accuracy ☝🏽
   </h1>
 </div>
 
