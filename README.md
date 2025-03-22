@@ -17,40 +17,14 @@
     🤝🏿 Contributors 🤝🏿
   </h1>
 
+| Name | Pronouns | Position | School | Major | Fun Fact | Contribution |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| [Fridah Ntika](https://www.github.com/FridahNtika) | she/her | Capitan | Wellesley College | Data Science | I love to travel and have visited over 10 countries! | Model Researcher |
+| [Ishita Kakkar](https://github.com/ikakkar03) | she/her | Capitan | UMass Amherst | Honors Computer Science and Math | I do calligraphy and graphic design projects for small businesses! | Data Augmentation and Initial Model Building |
+| [Ajibola Falade](https://www.github.com/Blash03) | he/him | Developer | Brandeis University | Computer Science | I enjoy jazz music and have played the saxophone ever since I started school! | Model Researcher |
+| [Kerem Farzaliyev](https://www.github.com/KeremFarzaliyev) | he/him | Developer | UMass Boston | Engineering Physics and Economics | I love learning languages! | Final Model Building |
+| [Paula Sefia](https://www.github.com/psefia) | she/her | Developer | Northeastern University | Honors Computer Science and Cognitive Psychology | I used to play 5 instruments in grade and middle school! | Data Augmentation and README |
 
-
-### [Fridah Ntika](https://www.github.com/FridahNtika)  | Co-Capitan | she/her 
-Fridah is a Data Science student at Wellesley College. 
-
-Fun Fact: she loves to travel and has visited over 10 countries!
-
-<br><br>
-
-### [Ishita Kakkar](https://github.com/ikakkar03) | Co-Capitan | she/her
-Ishita is an honors Computer Science and Math student at UMass Amherst. 
-
-Fun Fact: she does calligraphy and graphic design projects for small businesses!
-
-<br><br>
-
-### [Ajibola Falade](https://www.github.com/Blash03) | Developer | he/him
-Ajibola is a Computer Science student at Brandeis University. 
-
-Fun Fact: he enjoys jazz music and has played the saxophone ever since he started school!
-
-<br><br>
-
-### [Kerem Farzaliyev](https://www.github.com/KeremFarzaliyev) | Developer | he/him
-Kerem is an Engineering Physics and Economics student at UMass Boston. 
-
-Fun Fact: he loves learning languages!
-
-<br><br>
-
-### [Paula Sefia](https://www.github.com/psefia) | Developer | she/her
-Paula is a Computer Science and Cognitive Psychology student at Northeastern University. 
-
-Fun Fact: she used to play 5 instruments in grade and middle school!
 </div>
 
 <br><br><br>
