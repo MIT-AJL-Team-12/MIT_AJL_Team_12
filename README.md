@@ -251,25 +251,6 @@ One of our main challenges was integrating fairness metrics and tools (like fair
 [🔼 Back to top](#top)
 <br>
 
-Impact Narrative
-
-AJL: Describes specific steps taken to address model fairness. Explores the broader potential impact of their work. Incorporates creative storytelling technique(s) to make their work accessible.
-
-1. What steps did you take to address [model fairness](https://haas.berkeley.edu/wp-content/uploads/What-is-fairness_-EGAL2.pdf)? (e.g., leveraging data augmentation techniques to account for training dataset imbalances; using a validation set to assess model performance across different skin tones)
-2. What broader impact could your work have?
-
----
-
-## **🚀 Next Steps & Future Improvements**
-
-**Address the following:**
-
-* What are some of the limitations of your model?
-* What would you do differently with more time/resources?
-* What additional datasets or techniques would you explore?
-
----
-
 <!-- REFERENCES -->
 <div align="center">
   
