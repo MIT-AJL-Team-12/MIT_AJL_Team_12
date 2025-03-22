@@ -169,15 +169,15 @@ Prior image classification models typically use datasets, such as the one provid
 <br>
 
 <!-- DATA MANIPULATION STRATEGIES -->
-ADD INFO ON WHAT NEEDED TO BE DONE TO AUGMENT THE PICTURES OF THOSE IDENTIFIED IN LOWER FITZPATRICK CLASSES
+We first identified that images representing lower Fitzpatrick scale classes were underrepresented in our dataset, leading to potential biases in model training. To address this issue, we applied a WeightedRandomSampler, which ensured that images from the underrepresented darker skin tones were sampled more frequently during training. Additionally, we tested various augmentations, including horizontal flips and slight color jitter. However, we discovered that excessive color or rotation distortions sometimes harmed the model’s performance, likely because subtle color and orientation cues are essential in dermatology. As a result, we ultimately used only mild augmentations to balance the need for variability with the preservation of medically relevant features.
 [🔼 Back to top](#top)
 
 <!-- MODEL -->
-ADD INFO ON MODELS THAT WERE TRAINED TO INCREASE SCORE (ALL OF THE ONES TRIED AND THEN THE LAST ONE)
+We initially experimented with basic CNN architectures (such as ResNet and DenseNet) and MLP‐style models (like ResMLP and Mixer), which provided early baselines but did not reach high accuracy on our relatively small dataset. We then tried Vision Transformers (ViT and Swin) and found that the Swin Transformer consistently achieved better results in single‐split experiments. We also explored ConvNeXt, but in our tests, it did not outperform the Swin Transformer. Ultimately, our best‐performing approach used the Swin Transformer backbone, a small embedding layer for the Fitzpatrick scale input, and mild data augmentations. This setup achieved a test accuracy of around 76% when trained with a learning rate of approximately 3e‐5, label smoothing of 0.1, and no partial freezing of the backbone.
 [🔼 Back to top](#top)
 
 <!-- VISUALIZATIONS -->
-ADD INFO ON VISUALIZATIONS
+In order to understand the model’s strengths and weaknesses, we produced confusion matrices that illustrated improved coverage of darker Fitzpatrick classes after applying the WeightedRandomSampler. We also plotted training loss and accuracy curves, confirming that the model converged around epochs 15–20. For completeness, we generated sample augmented images to ensure that the horizontal flips and minimal color jitter did not excessively distort critical medical features.
 [🔼 Back to top](#top)
 
 <!-- ACCURACY SCORE -->
@@ -191,14 +191,14 @@ ADD INFO ON VISUALIZATIONS
 
 <img align="left" src="ajl leaderboard.png" height=250>
 
-To evaluate our model's performance, we used the F1 score, harmonic mean of precision and recall, providing a single metric that balances false positives and false negatives. A score of 0.74880 (~74.88%) suggests the model is making correct predictions about 75% of the time in terms of how well it balances precision and recall. Our model shows promise in classifying skin conditions across diverse skin tones, but there is still room for improvement.
+To evaluate our model's performance, we used the F1 score, harmonic mean of precision and recall, providing a single metric that balances false positives and false negatives. A score of 0.75953 (~76%) suggests the model is making correct predictions about 76% of the time in terms of how well it balances precision and recall. Our model shows promise in classifying skin conditions across diverse skin tones, but there is still room for improvement.
 
 <br><br><br>
 [🔼 Back to top](#top)
 <br>
 
 <!-- CHALLENGES/LIMITATIONS -->
-ADD INFO ON WHAT WE FOUND TO BE CHALLENGING (e.g. fairlearn)
+One of our main challenges was integrating fairness metrics and tools (like fairlearn) to measure and mitigate performance disparities across Fitzpatrick scales. Although we initially planned to use these frameworks, we found that our small dataset and the complexity of advanced fairness mitigation techniques made it difficult to incorporate them without sacrificing overall accuracy. We also recognized that single train/val splits can produce deceptively high validation accuracy if the split is “lucky.” In contrast, cross‐validation often yields lower but more reliable estimates of performance on each fold, which may ultimately lead to better generalization if models are ensembled. Finally, we acknowledged that the domain variability in dermatology images—particularly the subtle color and orientation cues—made it challenging to find the right balance of augmentations without harming the model’s ability to learn medically relevant patterns.
 [🔼 Back to top](#top)
 
 <!-- FUTURE AJL DIRECTIVES -->
@@ -217,5 +217,18 @@ Despite AI’s transformative potential in healthcare, dermatology models have h
 <br>
 
 <!-- REFERENCES -->
-ADD REFERENCES
+Mansouri, O., AsgarianDehkordi, H., Kolaei, T., Xiao, Y., & Rivaz, H. (2023). Medical Image Classification with KAN-Integrated Transformers and Dilated Neighborhood Attention. arXiv:2304.2025
+
+Chen, S., Wang, H., et al. (2021). TransMed: Transforming Multi-Modal Medical Image Classification. arXiv:2104.03807
+
+Çiçek, Ö., Abdulkadir, A., Lienkamp, S., Brox, T., & Ronneberger, O. (2016). 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation. In Medical Image Computing and Computer-Assisted Intervention – MICCAI 2016 (pp. 424–432).
+
+Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. In Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (pp. 234–241).
+
+Dosovitskiy, A., et al. (2021). An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale. In International Conference on Learning Representations (ICLR).
+
+Liu, Z., Lin, Y., Cao, Y., et al. (2021). Swin Transformer: Hierarchical Vision Transformer using Shifted Windows. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV).
+
+Liu, Z., Mao, H., Wu, C., et al. (2022). A ConvNet for the 2020s (ConvNeXt). In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).
+
 [🔼 Back to top](#top)
