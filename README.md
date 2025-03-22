@@ -37,7 +37,7 @@
   
   #
   <h1>
-    🙌🏻 What is Break Through Tech AI? 🙌🏻
+    🙌🏻 What is Break Through Tech? 🙌🏻
   </h1>
 </div>
 
