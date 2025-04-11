@@ -21,7 +21,7 @@
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | [Fridah Ntika](https://www.github.com/FridahNtika) | she/her | Capitan | Wellesley College | Data Science | I love to travel and have visited over 10 countries! | Model Researcher |
 | [Ishita Kakkar](https://github.com/ikakkar03) | she/her | Capitan | UMass Amherst | Honors Computer Science and Math | I do calligraphy and graphic design projects for small businesses! | Data Augmentation and Initial Model Building |
-| [Ajibola Falade](https://www.github.com/Blash03) | he/him | Developer | Brandeis University | Computer Science | I enjoy jazz music and have played the saxophone ever since I started school! | Model Researcher |
+| [Ajibola Falade](https://www.github.com/Blash03) | he/him | Developer | Brandeis University | Computer Science | I enjoy jazz music and have played the saxophone ever since I started middle school! | Model Researcher |
 | [Kerem Farzaliyev](https://www.github.com/KeremFarzaliyev) | he/him | Developer | UMass Boston | Engineering Physics and Economics | I love learning languages! | Final Model Building |
 | [Paula Sefia](https://www.github.com/psefia) | she/her | Developer | Northeastern University | Honors Computer Science and Cognitive Psychology | I used to play 5 instruments in grade and middle school! | Data Augmentation and README |
 
